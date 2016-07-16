@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+    <line>
+      <![CDATA[The Chrome driver you tried to initiate has some error, so the firefox is opened by default]]>
+    </line>
+    <line>
+      <![CDATA[Login Successful]]>
+    </line>
+    <line>
+      <![CDATA[Log Out Successful]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="30616" started-at="2016-07-16T17:05:19Z" finished-at="2016-07-16T17:05:50Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="30616" started-at="2016-07-16T17:05:19Z" finished-at="2016-07-16T17:05:50Z">
+      <class name="execution.TestSuite">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:execution.TestSuite@1ff8b8f]" name="beforeTest" is-config="true" duration-ms="17740" started-at="2016-07-16T22:35:19Z" finished-at="2016-07-16T22:35:37Z">
+          <reporter-output>
+            <line>
+              <![CDATA[The Chrome driver you tried to initiate has some error, so the firefox is opened by default]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="Login()[pri:0, instance:execution.TestSuite@1ff8b8f]" name="Login" duration-ms="11490" started-at="2016-07-16T22:35:37Z" finished-at="2016-07-16T22:35:49Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Login Successful]]>
+            </line>
+            <line>
+              <![CDATA[Log Out Successful]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method status="PASS" signature="Register()[pri:0, instance:execution.TestSuite@1ff8b8f]" name="Register" duration-ms="371" started-at="2016-07-16T22:35:49Z" finished-at="2016-07-16T22:35:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Register -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:execution.TestSuite@1ff8b8f]" name="afterTest" is-config="true" duration-ms="998" started-at="2016-07-16T22:35:49Z" finished-at="2016-07-16T22:35:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- execution.TestSuite -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
