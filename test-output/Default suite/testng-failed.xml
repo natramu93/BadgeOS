@@ -3,13 +3,11 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="execution.TestSuite">
+      <class name="pkge1.Driver">
         <methods>
-          <include name="afterTest"/>
-          <include name="beforeTest"/>
-          <include name="Register"/>
+          <include name="test" invocation-numbers="11"/>
         </methods>
-      </class> <!-- execution.TestSuite -->
+      </class> <!-- pkge1.Driver -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

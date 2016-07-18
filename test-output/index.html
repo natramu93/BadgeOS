@@ -23,7 +23,7 @@
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -36,8 +36,8 @@
       <div class="suite">
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
-            <a href="#" class="navigator-link" panel-name="suite-Suite">
-              <span class="suite-name border-passed">Suite</span>
+            <a href="#" class="navigator-link" panel-name="suite-Default_suite">
+              <span class="suite-name border-failed">Default suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -47,37 +47,37 @@
             <div class="suite-section-content">
               <ul>
                 <li>
-                  <a href="#" class="navigator-link " panel-name="test-xml-Suite">
-                    <span>C:\Users\NatarajanRamanathan\NeonWorkspace\BadgeOS\testng.xml</span>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Default_suite">
+                    <span>C:\Users\NatarajanRamanathan\AppData\Local\Temp\testng-eclipse-487008141\testng-customsuite.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" class="navigator-link " panel-name="testlist-Suite">
+                  <a href="#" class="navigator-link " panel-name="testlist-Default_suite">
                     <span class="test-stats">1 test</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" class="navigator-link " panel-name="group-Suite">
+                  <a href="#" class="navigator-link " panel-name="group-Default_suite">
                     <span>0 groups</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" class="navigator-link " panel-name="times-Suite">
+                  <a href="#" class="navigator-link " panel-name="times-Default_suite">
                     <span>Times</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" class="navigator-link " panel-name="reporter-Suite">
+                  <a href="#" class="navigator-link " panel-name="reporter-Default_suite">
                     <span>Reporter output</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" class="navigator-link " panel-name="ignored-methods-Suite">
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Default_suite">
                     <span>Ignored methods</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" class="navigator-link " panel-name="chronological-Suite">
+                  <a href="#" class="navigator-link " panel-name="chronological-Default_suite">
                     <span>Chronological view</span>
                   </a> <!-- navigator-link  -->
                 </li>
@@ -90,26 +90,85 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">2 methods,   2 passed</span>
+                    <span class="method-stats">12 methods, 1 failed,   11 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Default_suite" class="hide-methods failed suite-Default_suite"> (hide)</a> <!-- hide-methods failed suite-Default_suite -->
+                      <a href="#" panel-name="suite-Default_suite" class="show-methods failed suite-Default_suite"> (show)</a> <!-- show-methods failed suite-Default_suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Default_suite">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="pkge1.Driver" hash-for-method="test(null, null, null)">test(null, null, null)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Default_suite -->
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
                     <span class="show-or-hide-methods passed">
-                      <a href="#" panel-name="suite-Suite" class="hide-methods passed suite-Suite"> (hide)</a> <!-- hide-methods passed suite-Suite -->
-                      <a href="#" panel-name="suite-Suite" class="show-methods passed suite-Suite"> (show)</a> <!-- show-methods passed suite-Suite -->
+                      <a href="#" panel-name="suite-Default_suite" class="hide-methods passed suite-Default_suite"> (hide)</a> <!-- hide-methods passed suite-Default_suite -->
+                      <a href="#" panel-name="suite-Default_suite" class="show-methods passed suite-Default_suite"> (show)</a> <!-- show-methods passed suite-Default_suite -->
                     </span>
-                    <div class="method-list-content passed suite-Suite">
+                    <div class="method-list-content passed suite-Default_suite">
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="execution.TestSuite" hash-for-method="Login">Login</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="pkge1.Driver" hash-for-method="test(No, Enable Plugins, Sequentially Enable Plugins)">test(No, Enable Plugins, Sequentially Enable Plugins)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="execution.TestSuite" hash-for-method="Register">Register</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="pkge1.Driver" hash-for-method="test(Yes, Register New User Account, Register New User Account)">test(Yes, Register New User Account, Register New User Account)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
-                    </div> <!-- method-list-content passed suite-Suite -->
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="pkge1.Driver" hash-for-method="test(No, Disable all BadgeOS Plugins, Sequentially Disable all BadgeOS Plugins)">test(No, Disable all BadgeOS Plugins, Sequentially Disable all BadgeOS Plugins)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="pkge1.Driver" hash-for-method="test(No, S3, Submit Achievement, Navigate to S3, Submit Achievement)">test(No, S3, Submit Achievement, Navigate to S3, Submit Achievement)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="pkge1.Driver" hash-for-method="test(No, Interactive Progress Map, Confirm Interactive Progress Map Display for New User)">test(No, Interactive Progress Map, Confirm Interactive Progress Map Display for New User)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="pkge1.Driver" hash-for-method="test(No, Achievement Creation as Admin, Achievement Creation as Admin)">test(No, Achievement Creation as Admin, Achievement Creation as Admin)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="pkge1.Driver" hash-for-method="test(No, S1, Earn Achievement, Navigate to S1, Earn Achievement)">test(No, S1, Earn Achievement, Navigate to S1, Earn Achievement)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="pkge1.Driver" hash-for-method="test(No, earned in Student Profile, Authenticate as User Confirm S1, S2, S3 earned in Student Profile, on...)">test(No, earned in Student Profile, Authenticate as User Confirm S1, S2, S3 earned in Student Profile, on...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="pkge1.Driver" hash-for-method="test(No, S2, Submit Achievement, Navigate to S2, Submit Achievement)">test(No, S2, Submit Achievement, Navigate to S2, Submit Achievement)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="pkge1.Driver" hash-for-method="test(No, Reject S2, Rejecting S2 as admin)">test(No, Reject S2, Rejecting S2 as admin)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="pkge1.Driver" hash-for-method="test(No, Confirm S2, Authenticate as Administrator, Confirm S2)">test(No, Confirm S2, Authenticate as Administrator, Confirm S2)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Default_suite -->
                   </li>
                 </ul>
               </div> <!-- suite-section-content -->
@@ -120,149 +179,397 @@
     </div> <!-- navigator-root -->
     <div class="wrapper">
       <div class="main-panel-root">
-        <div panel-name="suite-Suite" class="panel Suite">
-          <div class="suite-Suite-class-passed">
+        <div panel-name="suite-Default_suite" class="panel Default_suite">
+          <div class="suite-Default_suite-class-failed">
             <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">execution.TestSuite</span>
+              <img src="failed.png"/>
+              <span class="class-name">pkge1.Driver</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="Login">
-                  </a> <!-- Login -->
-                  <span class="method-name">Login</span>
+                  <a name="test(null, null, null)">
+                  </a> <!-- test(null, null, null) -->
+                  <span class="method-name">test</span>
+                  <span class="parameters">(null, null, null)</span>
+                  <div class="stack-trace">java.lang.AssertionError: null
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.fail(Assert.java:101)
+	at pkge1.Driver.test(Driver.java:97)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:137)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:58)
+
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Default_suite-class-failed -->
+          <div class="suite-Default_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">pkge1.Driver</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="test(No, Enable Plugins, Sequentially Enable Plugins)">
+                  </a> <!-- test(No, Enable Plugins, Sequentially Enable Plugins) -->
+                  <span class="method-name">test</span>
+                  <span class="parameters">(No, Enable Plugins, Sequentially Enable Plugins)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="Register">
-                  </a> <!-- Register -->
-                  <span class="method-name">Register</span>
+                  <a name="test(Yes, Register New User Account, Register New User Account)">
+                  </a> <!-- test(Yes, Register New User Account, Register New User Account) -->
+                  <span class="method-name">test</span>
+                  <span class="parameters">(Yes, Register New User Account, Register New User Account)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test(No, Disable all BadgeOS Plugins, Sequentially Disable all BadgeOS Plugins)">
+                  </a> <!-- test(No, Disable all BadgeOS Plugins, Sequentially Disable all BadgeOS Plugins) -->
+                  <span class="method-name">test</span>
+                  <span class="parameters">(No, Disable all BadgeOS Plugins, Sequentially Disable all BadgeOS Plugins)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test(No, S3, Submit Achievement, Navigate to S3, Submit Achievement)">
+                  </a> <!-- test(No, S3, Submit Achievement, Navigate to S3, Submit Achievement) -->
+                  <span class="method-name">test</span>
+                  <span class="parameters">(No, S3, Submit Achievement, Navigate to S3, Submit Achievement)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test(No, Interactive Progress Map, Confirm Interactive Progress Map Display for New User)">
+                  </a> <!-- test(No, Interactive Progress Map, Confirm Interactive Progress Map Display for New User) -->
+                  <span class="method-name">test</span>
+                  <span class="parameters">(No, Interactive Progress Map, Confirm Interactive Progress Map Display for New User)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test(No, Achievement Creation as Admin, Achievement Creation as Admin)">
+                  </a> <!-- test(No, Achievement Creation as Admin, Achievement Creation as Admin) -->
+                  <span class="method-name">test</span>
+                  <span class="parameters">(No, Achievement Creation as Admin, Achievement Creation as Admin)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test(No, S1, Earn Achievement, Navigate to S1, Earn Achievement)">
+                  </a> <!-- test(No, S1, Earn Achievement, Navigate to S1, Earn Achievement) -->
+                  <span class="method-name">test</span>
+                  <span class="parameters">(No, S1, Earn Achievement, Navigate to S1, Earn Achievement)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test(No, earned in Student Profile, Authenticate as User Confirm S1, S2, S3 earned in Student Profile, on...)">
+                  </a> <!-- test(No, earned in Student Profile, Authenticate as User Confirm S1, S2, S3 earned in Student Profile, on...) -->
+                  <span class="method-name">test</span>
+                  <span class="parameters">(No, earned in Student Profile, Authenticate as User Confirm S1, S2, S3 earned in Student Profile, on Progress Map)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test(No, S2, Submit Achievement, Navigate to S2, Submit Achievement)">
+                  </a> <!-- test(No, S2, Submit Achievement, Navigate to S2, Submit Achievement) -->
+                  <span class="method-name">test</span>
+                  <span class="parameters">(No, S2, Submit Achievement, Navigate to S2, Submit Achievement)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test(No, Reject S2, Rejecting S2 as admin)">
+                  </a> <!-- test(No, Reject S2, Rejecting S2 as admin) -->
+                  <span class="method-name">test</span>
+                  <span class="parameters">(No, Reject S2, Rejecting S2 as admin)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test(No, Confirm S2, Authenticate as Administrator, Confirm S2)">
+                  </a> <!-- test(No, Confirm S2, Authenticate as Administrator, Confirm S2) -->
+                  <span class="method-name">test</span>
+                  <span class="parameters">(No, Confirm S2, Authenticate as Administrator, Confirm S2)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Suite-class-passed -->
-        </div> <!-- panel Suite -->
-        <div panel-name="test-xml-Suite" class="panel">
+          </div> <!-- suite-Default_suite-class-passed -->
+        </div> <!-- panel Default_suite -->
+        <div panel-name="test-xml-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\NatarajanRamanathan\NeonWorkspace\BadgeOS\testng.xml</span>
+            <span class="header-content">C:\Users\NatarajanRamanathan\AppData\Local\Temp\testng-eclipse-487008141\testng-customsuite.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
-&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Suite&quot;&gt;
-  &lt;listeners&gt;
-    &lt;listener class-name=&quot;atu.testng.reports.listeners.ATUReportsListener&quot;/&gt;
-    &lt;listener class-name=&quot;atu.testng.reports.listeners.ConfigurationListener&quot;/&gt;
-    &lt;listener class-name=&quot;atu.testng.reports.listeners.MethodListener&quot;/&gt;
-  &lt;/listeners&gt;
-  &lt;test name=&quot;Test&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Default suite&quot;&gt;
+  &lt;test verbose=&quot;2&quot; name=&quot;Default test&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;execution.TestSuite&quot;/&gt;
+      &lt;class name=&quot;pkge1.Driver&quot;/&gt;
     &lt;/classes&gt;
-  &lt;/test&gt; &lt;!-- Test --&gt;
-&lt;/suite&gt; &lt;!-- Suite --&gt;
+  &lt;/test&gt; &lt;!-- Default test --&gt;
+&lt;/suite&gt; &lt;!-- Default suite --&gt;
             </pre>
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="testlist-Suite" class="panel">
+        <div panel-name="testlist-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">Tests for Suite</span>
+            <span class="header-content">Tests for Default suite</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">Test (1 class)</span>
+                <span class="test-name">Default test (1 class)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="group-Suite" class="panel">
+        <div panel-name="group-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">Groups for Suite</span>
+            <span class="header-content">Groups for Default suite</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="times-Suite" class="panel">
+        <div panel-name="times-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">Times for Suite</span>
+            <span class="header-content">Times for Default suite</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="times-div">
               <script type="text/javascript">
-suiteTableInitFunctions.push('tableData_Suite');
-function tableData_Suite() {
+suiteTableInitFunctions.push('tableData_Default_suite');
+function tableData_Default_suite() {
 var data = new google.visualization.DataTable();
 data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(2);
+data.addRows(12);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'Login')
-data.setCell(0, 2, 'execution.TestSuite')
-data.setCell(0, 3, 11490);
+data.setCell(0, 1, 'test')
+data.setCell(0, 2, 'pkge1.Driver')
+data.setCell(0, 3, 93184);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'Register')
-data.setCell(1, 2, 'execution.TestSuite')
-data.setCell(1, 3, 371);
-window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
+data.setCell(1, 1, 'test')
+data.setCell(1, 2, 'pkge1.Driver')
+data.setCell(1, 3, 63);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'test')
+data.setCell(2, 2, 'pkge1.Driver')
+data.setCell(2, 3, 49);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'test')
+data.setCell(3, 2, 'pkge1.Driver')
+data.setCell(3, 3, 42);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'test')
+data.setCell(4, 2, 'pkge1.Driver')
+data.setCell(4, 3, 42);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'test')
+data.setCell(5, 2, 'pkge1.Driver')
+data.setCell(5, 3, 42);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'test')
+data.setCell(6, 2, 'pkge1.Driver')
+data.setCell(6, 3, 41);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'test')
+data.setCell(7, 2, 'pkge1.Driver')
+data.setCell(7, 3, 39);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'test')
+data.setCell(8, 2, 'pkge1.Driver')
+data.setCell(8, 3, 39);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'test')
+data.setCell(9, 2, 'pkge1.Driver')
+data.setCell(9, 3, 39);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'test')
+data.setCell(10, 2, 'pkge1.Driver')
+data.setCell(10, 3, 37);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'test')
+data.setCell(11, 2, 'pkge1.Driver')
+data.setCell(11, 3, 20);
+window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 11 seconds</span>
-              <div id="times-div-Suite">
-              </div> <!-- times-div-Suite -->
+              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <div id="times-div-Default_suite">
+              </div> <!-- times-div-Default_suite -->
             </div> <!-- times-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="reporter-Suite" class="panel">
+        <div panel-name="reporter-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">Reporter output for Suite</span>
+            <span class="header-content">Reporter output for Default suite</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="reporter-method-div">
-              <span class="reporter-method-name">Login</span>
+              <span class="reporter-method-name">test(No, Enable Plugins, Sequentially Enable Plugins)</span>
               <div class="reporter-method-output-div">
-                <span class="reporter-method-output">Login Successful</span>
-                <span class="reporter-method-output">Log Out Successful</span>
+                <span class="reporter-method-output">Sequentially Enable Plugins</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">test(Yes, Register New User Account, Register New User Account)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Register New User Account</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">test(No, Disable all BadgeOS Plugins, Sequentially Disable all BadgeOS Plugins)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Sequentially Disable all BadgeOS Plugins</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">test(No, S3, Submit Achievement, Navigate to S3, Submit Achievement)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Navigate to S3, Submit Achievement</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">test(No, Interactive Progress Map, Confirm Interactive Progress Map Display for New User)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Confirm Interactive Progress Map Display for New User</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">test(No, Achievement Creation as Admin, Achievement Creation as Admin)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Achievement Creation as Admin</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">test(No, S1, Earn Achievement, Navigate to S1, Earn Achievement)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Navigate to S1, Earn Achievement</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">test(No, earned in Student Profile, Authenticate as User Confirm S1, S2, S3 earned in Student Profile, on...)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Authenticate as User Confirm S1, S2, S3 earned in Student Profile, on Progress Map</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">test(No, S2, Submit Achievement, Navigate to S2, Submit Achievement)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Navigate to S2, Submit Achievement</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">test(No, Reject S2, Rejecting S2 as admin)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Rejecting S2 as admin</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">test(No, Confirm S2, Authenticate as Administrator, Confirm S2)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Authenticate as Administrator, Confirm S2</span>
               </div> <!-- reporter-method-output-div -->
             </div> <!-- reporter-method-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="ignored-methods-Suite" class="panel">
+        <div panel-name="ignored-methods-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
             <span class="header-content">0 ignored methods</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="chronological-Suite" class="panel">
+        <div panel-name="chronological-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
             <span class="header-content">Methods in chronological order</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">execution.TestSuite</div> <!-- chronological-class-name -->
-              <div class="configuration-test before">
-                <span class="method-name">beforeTest</span>
+              <div class="chronological-class-name">pkge1.Driver</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">test(No, Achievement Creation as Admin, Achievement Creation as Admin)</span>
                 <span class="method-start">0 ms</span>
-              </div> <!-- configuration-test before -->
-              <div class="test-method">
-                <span class="method-name">Login</span>
-                <span class="method-start">17751 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
-                <span class="method-name">Register</span>
-                <span class="method-start">29244 ms</span>
+                <span class="method-name">test(Yes, Register New User Account, Register New User Account)</span>
+                <span class="method-start">22 ms</span>
               </div> <!-- test-method -->
-              <div class="configuration-test after">
-                <span class="method-name">afterTest</span>
-                <span class="method-start">29616 ms</span>
-              </div> <!-- configuration-test after -->
+              <div class="test-method">
+                <span class="method-name">test(No, Interactive Progress Map, Confirm Interactive Progress Map Display for New User)</span>
+                <span class="method-start">93207 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test(No, S1, Earn Achievement, Navigate to S1, Earn Achievement)</span>
+                <span class="method-start">93247 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test(No, S2, Submit Achievement, Navigate to S2, Submit Achievement)</span>
+                <span class="method-start">93289 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test(No, Reject S2, Rejecting S2 as admin)</span>
+                <span class="method-start">93331 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test(No, S3, Submit Achievement, Navigate to S3, Submit Achievement)</span>
+                <span class="method-start">93374 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test(No, Confirm S2, Authenticate as Administrator, Confirm S2)</span>
+                <span class="method-start">93414 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test(No, earned in Student Profile, Authenticate as User Confirm S1, S2, S3 earned in Student Profile, on...)</span>
+                <span class="method-start">93458 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test(No, Disable all BadgeOS Plugins, Sequentially Disable all BadgeOS Plugins)</span>
+                <span class="method-start">93500 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test(No, Enable Plugins, Sequentially Enable Plugins)</span>
+                <span class="method-start">93543 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">test(null, null, null)</span>
+                <span class="method-start">93593 ms</span>
+              </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
       </div> <!-- main-panel-root -->

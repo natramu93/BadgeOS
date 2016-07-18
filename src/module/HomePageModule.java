@@ -9,6 +9,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 import org.testng.Reporter;
 
+import atu.testng.reports.ATUReports;
 import constants.Constants;
 import pageObjects.HomePage;
 import pageObjects.UserHomePage;
@@ -36,6 +37,8 @@ public UserHomePage UHP;
 			driver = new FirefoxDriver();
 		}
 	}
+	ATUReports.setWebDriver(driver);
+	ATUReports.indexPageDescription = "BadgeOS Project Test Report of ASAHI Technologies";
 	driver.get(Constants.URL);
 	driver.manage().window().maximize();
 	driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
